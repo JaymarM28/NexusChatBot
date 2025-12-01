@@ -1,0 +1,16 @@
+# Dependencias para VideoLearn - Servidor Python
+
+# Framework web
+Flask==3.0.0
+
+# CORS (permite peticiones desde el navegador)
+Flask-CORS==4.0.0
+
+# Cliente oficial de Anthropic para Claude API
+anthropic==0.40.0
+
+# Servidor WSGI para producción (opcional)
+gunicorn==21.2.0
+
+# Variables de entorno (opcional pero recomendado)
+python-dotenv==1.0.0
