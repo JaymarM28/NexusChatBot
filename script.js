@@ -149,8 +149,8 @@ function clearChat() {
             <div class="message bot-message welcome-message">
                 <div class="message-avatar bot-avatar">🤖</div>
                 <div class="message-content">
-                    <p>¡Hola! Soy tu asistente virtual. ${autoTranscriptionLoaded ? 'He cargado la transcripción del video automáticamente y estoy' : 'Estoy'} listo para responder cualquier pregunta que tengas sobre el contenido.</p>
-                    ${autoTranscriptionLoaded ? `<p class="message-tip">✅ <strong>Transcripción:</strong> ${charCount} caracteres cargados automáticamente.</p>` : '<p class="message-tip">💡 <strong>Tip:</strong> Primero pega la transcripción del video arriba para que pueda ayudarte mejor.</p>'}
+            <p>¡Hola! Soy Nexus tu asistente virtual.</p>
+            <p class="message-tip">💡 <strong>Tip:</strong> Haz preguntas específicas sobre el contenido del video.</p>
                 </div>
             </div>
         `;  
@@ -170,8 +170,8 @@ function limpliarChat() {
             <div class="message bot-message welcome-message">
                 <div class="message-avatar bot-avatar">🤖</div>
                 <div class="message-content">
-                    <p>¡Hola! Soy tu asistente virtual. ${autoTranscriptionLoaded ? 'He cargado la transcripción del video automáticamente y estoy' : 'Estoy'} listo para responder cualquier pregunta que tengas sobre el contenido.</p>
-                    ${autoTranscriptionLoaded ? `<p class="message-tip">✅ <strong>Transcripción:</strong> ${charCount} caracteres cargados automáticamente.</p>` : '<p class="message-tip">💡 <strong>Tip:</strong> Primero pega la transcripción del video arriba para que pueda ayudarte mejor.</p>'}
+            <p>¡Hola! Soy Nexus tu asistente virtual.</p>
+            <p class="message-tip">💡 <strong>Tip:</strong> Haz preguntas específicas sobre el contenido del video.</p>
                 </div>
             </div>
         `;        
