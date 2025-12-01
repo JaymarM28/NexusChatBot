@@ -139,7 +139,7 @@ async function checkServerHealth() {
 // ========== GESTIÓN DEL CHAT ==========
 function clearChat() {
     if (confirm('¿Estás seguro de que quieres limpiar el historial del chat?')) {
-        conversationHistory = [];
+            conversationHistory = [];
         localStorage.removeItem('chatHistory');
         
         const chatMessages = document.getElementById('chatMessages');
@@ -153,7 +153,7 @@ function clearChat() {
                     ${autoTranscriptionLoaded ? `<p class="message-tip">✅ <strong>Transcripción:</strong> ${charCount} caracteres cargados automáticamente.</p>` : '<p class="message-tip">💡 <strong>Tip:</strong> Primero pega la transcripción del video arriba para que pueda ayudarte mejor.</p>'}
                 </div>
             </div>
-        `;
+        `;  
         
         showNotification('Chat limpiado', 'success');
     }
